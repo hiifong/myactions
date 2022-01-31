@@ -34,6 +34,6 @@ jobs:
           external_repository: yourgithubusername/yourreponame # Publish to another repository on GitHub
           publish_branch: master # default: gh-pages
           publish_dir: ./public # A source directory to deploy to GitHub Pages.
-          enable_jekyll: true # If you want GitHub Pages to process your site with the static site generator Jekyll
+          enable_jekyll: false # If you want GitHub Pages to process your site with the static site generator Jekyll
           allow_empty_commit: true #  If you want to allow an empty commit
           force_orphan: true # This allows you to make your publish branch with only the latest commit.
