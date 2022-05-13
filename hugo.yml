@@ -36,4 +36,6 @@ jobs:
           publish_dir: ./public # A source directory to deploy to GitHub Pages.
           enable_jekyll: false # If you want GitHub Pages to process your site with the static site generator Jekyll
           allow_empty_commit: true #  If you want to allow an empty commit
+          user_name: 'xxx'
+          user_email: 'xxx@xx.xx'
           force_orphan: true # This allows you to make your publish branch with only the latest commit.
